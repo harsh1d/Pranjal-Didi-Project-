@@ -1,0 +1,167 @@
+#box
+{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+#box1 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: slideright;
+    animation-duration: 2s;
+}
+#box2 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: slideup;
+    animation-duration: 2s;
+}
+#box3 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: slidedown;
+    animation-duration: 2s;
+}
+#box4 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: rotatex;
+    animation-duration: 2s;
+}
+#box5 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: rotatey;
+    animation-duration: 2s;
+}
+#box6 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: rotatez;
+    animation-duration: 2s;
+}
+#box7 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+#box8 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: shrink;
+    animation-duration: 2s;
+}
+#box9 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+#box10 {
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    font-size: 6cm;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 2s;
+}
+@keyframes slideleft
+{
+    from {
+        transform: translateX(300%);
+    }
+}
+@keyframes slideright 
+{
+    to {
+        transform: translateX(300%);
+    }
+}
+@keyframes slideup {
+    from {
+        transform: translateY(300%);
+    }
+}
+@keyframes slidedown {
+    to {
+        transform: translateY(300%);
+    }
+}
+@keyframes rotatex 
+{
+    100% {
+        transform: rotateX(360deg)
+    }
+}
+@keyframes rotatey 
+{
+    100% {
+        transform: rotateY(360deg)
+    }
+}
+@keyframes rotatez 
+{
+    50% {
+        transform: rotateZ(360deg)
+    }
+}
+@keyframes grow 
+{
+    50% {
+        transform: scale(2, 2)
+    }
+}
+@keyframes shrink 
+{
+    50% {
+        transform: scale(0.5, 0.5)
+    }
+}
+@keyframes fade 
+{
+    100% {
+        opacity: 0
+    }
+}
+@keyframes colorchange
+{
+    0%{background-color: rgb(255, 0, 0);}
+    20%{background-color: rgb(255, 136, 1);}
+    40%{background-color: greenyellow;}
+    60%{background-color: rgb(0, 255, 26);}
+    80%{background-color: rgb(255, 47, 200);}
+    100%{background-color: greenyellow;}
+}
