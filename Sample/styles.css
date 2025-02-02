@@ -1,0 +1,63 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Upload Button Styles */
+
+.upload-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #3e8e41;
+}
+
+/* Output Container Styles */
+
+.output-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .upload-button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .output-container {
+        margin-top: 15px;
+        padding: 10px;
+    }
+}
